@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>CreateDevDatabaseData</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="T:Program">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:WilburEllis.RisingTide.Test.DevData.IValue">
+
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.ReadDataTableFromFile(System.String,System.String)">
+<summary>
+ read data for table from csv file                
+</summary>
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.ReadDataValues(System.String,System.IO.StreamReader)">
+<summary>
+ read on line of csv data into a row for this table
+</summary>
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.ReadDataLine(Microsoft.FSharp.Collections.FSharpList{System.Tuple{System.String,System.String}},System.String)">
+<summary>
+ read one line of csv data
+</summary>
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.GetValueForField``1(``0,System.String,System.String)">
+<summary>
+ given a string and a typ create a value type
+</summary>
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.WriteTableToFile(System.String,System.String)">
+<summary>
+ write rows of table to file
+</summary>
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.ShowDataValues(System.String)">
+<summary>
+ write rows of table to Console out         
+</summary>
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.WriteDataValues(System.String,System.IO.StreamWriter)">
+<summary>
+ write one row of table data to a stream
+</summary>
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.GetTableData(System.String)">
+<summary>
+ return list of table rows as lists if IValue types   
+</summary>
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.GetColumnData(System.Data.IDataReader,System.String,System.Int32)">
+<summary>
+ get IValue for data in field n
+</summary>
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.DeleteTableRows(System.String)">
+<summary>
+ delete all rows from table
+</summary>
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.GetTableCount(System.String)">
+<summary>
+ get count if rows in table
+</summary>
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.GetTableFieldTypes(System.String)">
+<summary>
+ return list of field names tupled with field types
+</summary>
+</member>
+<member name="M:WilburEllis.RisingTide.Test.DevData.ScanTables.GetTableNames">
+<summary>
+ get all table names in rt schema
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:WilburEllis.RisingTide.Test.DevData.ScanTables">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:WilburEllis.RisingTide.Test.DevData.StringExtensions">
+
+</member>
+</members>
+</doc>
